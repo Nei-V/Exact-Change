@@ -6,8 +6,8 @@ function exactChange() {
         */
 
         let originalPrice = Math.round(parseFloat((price * Math.pow(10, 2)).toFixed(2))) / Math.pow(10, 2);
-        const originalPaid = Math.round(parseFloat((document.getElementById("originalPrice").value * Math.pow(10, 2)).toFixed(2))) / Math.pow(10, 2);
-        let originalChange = cid;
+        const originalPaid = Math.round(parseFloat((document.getElementById("originalCash").value * Math.pow(10, 2)).toFixed(2))) / Math.pow(10, 2);
+        let originalChange = cid;//money in drower
         console.log("original price", originalPrice);
         console.log("original paid", originalPaid);
         console.log("original change", originalChange);
